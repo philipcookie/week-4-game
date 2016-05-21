@@ -1,10 +1,29 @@
 body {
-	background-color: gray;
-	background-image: url("images/bgimage.jpeg");
+	background-image: url('../../images/bgimage.png');
+	height: 100%;
+	width: 100%;
 }
 
+h1 {
+	color: white;
+}
+
+
+/* Hero Classes */
+
+.heroNotSelected {
+
+}
+
+.thumbnail {
+	margin: 5px;
+}
 
 .col-sm-3 {
 	width: 20%;
 }
 
+
+#fightWrapper {
+	clear:both;
+}
